@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <a class="primary-blue font-20 logo-link" href="index.html">Dewashish</a>
+        </div>
+        <div class="links">
+            <a class="link font-20 bold" href="index.html">Home</a>
+            <a class="link font-20" href="#ABOUT">About</a>
+            <a class="link font-20" href="#CONTACT">Contact</a>
+        </div>
+    </div>
+    <div class="hero-Section">
+        <div class="main-text">
+            <h1>Hello!</h1>
+            <h1>I am <span class="primary-blue">Dewashish</span></h1>
+            <h1 ><span class="auto-typed"></span></h1>
+            <div class="refrence-btns">
+                <a href="projects.html"><button class="btn" type="button">Projects</button></a>
+                <a href="certificates.html"><button class="btn right-btn" type="button">Certificates</button></a>
+            </div>
+        </div>
+        <div class="main-img">
+            <img class="main-image" src="./images/main.png" alt="vector-image">
+        </div>
+    </div>
+    <div class="about-me" id="ABOUT">
+        <div class="style">
+            <hr class="rule">
+            <p class="satisfy">About me</p>
+            <hr class="rule">
+        </div>
+        <div class="main-about-box">
+            <div class="img">
+                <img class="self-img" src="./images/self1.jpg" alt="">
+            </div>
+            <div class="main-text">
+                <p class="font-20 text">HI! My name is Dewashish Dubey and I am a 
+                    Second year Computer Science student at
+                    SRM university, India. 
+                </p>
+                <p class="font-20 text text1">I developed an interest in Computers in my school days which i have now chosen as my future career option.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="contact-foot" id="CONTACT">
+        <div class="style">
+            <hr class="rule">
+            <p class="satisfy">Let's Chat</p>
+            <hr class="rule">
+        </div>
+        <div class="main-box">
+            <div class="contact-info">
+                <p class="font-20">Got a Question?</p>
+                <p class="font-20 contact-text">It would be nice to exchange a few words and know about each other!</p>
+                <div class="contact-1">
+                    <img class="icon" src="./images/mail-icon.png" alt="">
+                    <div class="text2">
+                        <p class="font-20 reset">Email</p>
+                        <p class="font-20 reset">dewasishdubey@gmail.com</p>
+                    </div>
+                </div>
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/dewashish-dubey/" target="_blank"><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                        <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_atjsyyed.json"  background="transparent"  speed="1"  style="width: 65px; height: 65px;" hover loop  ></lottie-player></a>
+                        <a class="linkk" class="social" href="https://twitter.com/Dewashish001" target="_blank"><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_hdy0htc2.json"  background="transparent"  speed="1"  style="width: 65px; height: 65px;" hover loop  ></lottie-player></a>
+                </div>
+               
+            </div>
+            <div class="form">
+                <form action="mailto:dewasishdubey@gmail.com" method="post" enctype="text/plain">
+                    <label >Name</label><br>
+                    <input name="name" class="area"  type="text"><br>
+                    <label>Email</label><br>
+                    <input name="mail id" class="area"  type="email"><br>
+                    <label>Your Message</label><br>
+                    <textarea name="Message" class="text-area" cols="30" rows="10"></textarea><br>
+                    <input class="submit-button btn" type="submit"><br>
+                </form>
+            </div>
+        </div>
+    </div>
+    <hr class="none">
+    <div class="footer">
+        
+        <a href="https://www.linkedin.com/in/dewashish-dubey/" target="_blank"><img src="./images/icons8-linkedin-circled-48.png" alt=""></a>
+        <a class="social" href="https://twitter.com/Dewashish001" target="_blank"><img src="./images/icons8-twitter-48.png" alt=""></a>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-typed",{strings:["Programmer","Student"],typeSpeed:200,backSpeed:200,loop:true})
+    </script>
+</body>
+</html>

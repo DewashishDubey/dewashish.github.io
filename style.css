@@ -31,11 +31,35 @@ a
 {
     text-decoration:none;
     color:black;
+     /*Copied from internet for hover effect underline*/ 
+    position:relative;
 }
 .logo-link:hover,a:hover
 {
     color:#387CDF;
 }
+
+/*--------------Copied from internet Hover line below-------------------*/
+a::before 
+{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #387CDF;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+  
+a:hover::before 
+{
+    transform: scaleX(1);
+}
+/*---------------------------------------------------------*/
+
 .nav
 {
     margin-top:2rem;

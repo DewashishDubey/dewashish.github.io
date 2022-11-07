@@ -40,7 +40,7 @@ a
 }
 
 /*--------------Copied from internet Hover line below-------------------*/
-a::before 
+.link::before 
 {
     content: "";
     position: absolute;
@@ -54,7 +54,7 @@ a::before
     transition: transform 0.3s ease;
 }
   
-a:hover::before 
+.link:hover::before 
 {
     transform: scaleX(1);
 }

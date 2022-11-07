@@ -30,13 +30,6 @@ a:hover
 {
     color:#70A0E5;
 }
-.nav
-{
-    margin-top:2rem;
-    display:flex;
-    justify-content:space-around;
-    margin-bottom:3rem;
-}
 .link
 {
     margin:0 1rem 0 1rem;

@@ -17,6 +17,10 @@ body
 {
     font-size:20px;
 }
+.font-25
+{
+    font-size: 25px;
+}
 .bold
 {
     font-weight: bold;
@@ -88,19 +92,26 @@ a
 {
     width:10rem;
     height:3rem;
-    background-color: #70A0E5;
-    color:white;
-    border-radius:1.5rem;
-    border:none;
+    background-color: white;
+    font-size: 1.3rem;
+    color:#387CDF;
+    border: #387CDF 0.125em solid;
+    padding: 0.25em 1em;
+    border-radius: 0.25em;
 }
 .btn:hover
 {
     cursor: pointer;
     background-color: #266FD7;
+    color:white;
 }
-.right-btn
+.btn-left
 {
-    margin-left:2rem;
+    margin-left:1.5rem;
+}
+.refrence-btns
+{
+    margin-top:3.5rem;
 }
 .style
 {
@@ -238,6 +249,10 @@ a
     .font-20
     {
         font-size: 10px;
+    }
+    .font-25
+    {
+        font-size:15px;
     }
     .main-text
     {

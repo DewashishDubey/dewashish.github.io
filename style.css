@@ -346,6 +346,12 @@ a
     .social
     {
         margin-left:2rem;
+        margin-right: 2rem;
+    }
+    .size-48
+    {
+        height: 48px;
+        width:48px;
     }
     .bottomMenu
     {
